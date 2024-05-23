@@ -1,8 +1,35 @@
 .container{
-    background-color: blue;
+    background-color: blanchedalmond;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: 1s ease-in-out;
 }
 
-.container ul{
+.containerDark{
+    background-color: #4c4545;
+    height: 40px;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ulDark{
     display: flex;
     gap: 20px;
+    transition: 1s ease;
+}
+
+.changeFont{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    transition: 1s ease;
+}
+
+li{
+    list-style: none;
 }
